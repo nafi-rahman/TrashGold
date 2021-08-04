@@ -46,5 +46,10 @@ namespace GreenChain
 			hidepanel();
 			payment.Visible = true;
 		}
+
+		private void userpanel_Paint(object sender, PaintEventArgs e)
+		{
+
+		}
 	}
 }

@@ -42,6 +42,7 @@ namespace GreenChain
 			this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
 			this.timer1 = new System.Windows.Forms.Timer(this.components);
 			this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+			this.guna2ToggleSwitch1 = new Guna.UI2.WinForms.Guna2ToggleSwitch();
 			this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
 			this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
 			this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -66,6 +67,9 @@ namespace GreenChain
 			this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
 			this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
 			this.timer3 = new System.Windows.Forms.Timer(this.components);
+			this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+			this.errorProvider2 = new System.Windows.Forms.ErrorProvider(this.components);
+			this.guna2HtmlToolTip1 = new Guna.UI2.WinForms.Guna2HtmlToolTip();
 			((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
 			this.guna2Panel1.SuspendLayout();
 			this.guna2Panel2.SuspendLayout();
@@ -73,6 +77,8 @@ namespace GreenChain
 			this.guna2Panel3.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
 			this.guna2ContainerControl1.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// guna2Elipse1
@@ -149,7 +155,7 @@ namespace GreenChain
 			this.guna2Panel1.Location = new System.Drawing.Point(620, 0);
 			this.guna2Panel1.Name = "guna2Panel1";
 			this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-			this.guna2Panel1.Size = new System.Drawing.Size(515, 576);
+			this.guna2Panel1.Size = new System.Drawing.Size(515, 573);
 			this.guna2Panel1.TabIndex = 4;
 			// 
 			// guna2Button2
@@ -219,6 +225,7 @@ namespace GreenChain
 			// guna2Panel2
 			// 
 			this.guna2Panel2.BackColor = System.Drawing.Color.White;
+			this.guna2Panel2.Controls.Add(this.guna2ToggleSwitch1);
 			this.guna2Panel2.Controls.Add(this.guna2Button4);
 			this.guna2Panel2.Controls.Add(this.guna2PictureBox3);
 			this.guna2Panel2.Controls.Add(this.guna2HtmlLabel4);
@@ -231,8 +238,28 @@ namespace GreenChain
 			this.guna2Panel2.Location = new System.Drawing.Point(617, 0);
 			this.guna2Panel2.Name = "guna2Panel2";
 			this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
-			this.guna2Panel2.Size = new System.Drawing.Size(531, 573);
+			this.guna2Panel2.Size = new System.Drawing.Size(518, 573);
 			this.guna2Panel2.TabIndex = 5;
+			// 
+			// guna2ToggleSwitch1
+			// 
+			this.guna2ToggleSwitch1.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+			this.guna2ToggleSwitch1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+			this.guna2ToggleSwitch1.CheckedState.InnerBorderColor = System.Drawing.Color.White;
+			this.guna2ToggleSwitch1.CheckedState.InnerColor = System.Drawing.Color.White;
+			this.guna2ToggleSwitch1.CheckedState.Parent = this.guna2ToggleSwitch1;
+			this.guna2ToggleSwitch1.Location = new System.Drawing.Point(122, 378);
+			this.guna2ToggleSwitch1.Name = "guna2ToggleSwitch1";
+			this.guna2ToggleSwitch1.ShadowDecoration.Parent = this.guna2ToggleSwitch1;
+			this.guna2ToggleSwitch1.Size = new System.Drawing.Size(35, 20);
+			this.guna2ToggleSwitch1.TabIndex = 5;
+			this.guna2ToggleSwitch1.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+			this.guna2ToggleSwitch1.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+			this.guna2ToggleSwitch1.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
+			this.guna2ToggleSwitch1.UncheckedState.InnerColor = System.Drawing.Color.White;
+			this.guna2ToggleSwitch1.UncheckedState.Parent = this.guna2ToggleSwitch1;
+			this.guna2ToggleSwitch1.CheckedChanged += new System.EventHandler(this.guna2ToggleSwitch1_CheckedChanged);
+			this.guna2ToggleSwitch1.MouseHover += new System.EventHandler(this.guna2ToggleSwitch1_MouseHover);
 			// 
 			// guna2Button4
 			// 
@@ -360,7 +387,7 @@ namespace GreenChain
 			this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
 			this.guna2TextBox2.FocusedState.Parent = this.guna2TextBox2;
 			this.guna2TextBox2.Font = new System.Drawing.Font("Quincy CF", 12F);
-			this.guna2TextBox2.ForeColor = System.Drawing.Color.White;
+			this.guna2TextBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(89)))), ((int)(((byte)(72)))));
 			this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
 			this.guna2TextBox2.HoverState.Parent = this.guna2TextBox2;
 			this.guna2TextBox2.Location = new System.Drawing.Point(93, 321);
@@ -373,6 +400,8 @@ namespace GreenChain
 			this.guna2TextBox2.ShadowDecoration.Parent = this.guna2TextBox2;
 			this.guna2TextBox2.Size = new System.Drawing.Size(370, 50);
 			this.guna2TextBox2.TabIndex = 0;
+			this.guna2TextBox2.UseSystemPasswordChar = true;
+			this.guna2TextBox2.Leave += new System.EventHandler(this.guna2TextBox2_Leave);
 			// 
 			// guna2TextBox1
 			// 
@@ -389,7 +418,7 @@ namespace GreenChain
 			this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
 			this.guna2TextBox1.FocusedState.Parent = this.guna2TextBox1;
 			this.guna2TextBox1.Font = new System.Drawing.Font("Quincy CF", 12F);
-			this.guna2TextBox1.ForeColor = System.Drawing.Color.White;
+			this.guna2TextBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(89)))), ((int)(((byte)(72)))));
 			this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
 			this.guna2TextBox1.HoverState.Parent = this.guna2TextBox1;
 			this.guna2TextBox1.Location = new System.Drawing.Point(93, 233);
@@ -402,6 +431,7 @@ namespace GreenChain
 			this.guna2TextBox1.ShadowDecoration.Parent = this.guna2TextBox1;
 			this.guna2TextBox1.Size = new System.Drawing.Size(370, 50);
 			this.guna2TextBox1.TabIndex = 0;
+			this.guna2TextBox1.Leave += new System.EventHandler(this.guna2TextBox1_Leave);
 			// 
 			// guna2Shapes2
 			// 
@@ -628,6 +658,7 @@ namespace GreenChain
 			this.guna2GradientButton2.Size = new System.Drawing.Size(180, 45);
 			this.guna2GradientButton2.TabIndex = 1;
 			this.guna2GradientButton2.Text = "Sign up";
+			this.guna2GradientButton2.Click += new System.EventHandler(this.guna2GradientButton2_Click);
 			// 
 			// timer2
 			// 
@@ -677,6 +708,21 @@ namespace GreenChain
 			this.timer3.Interval = 1;
 			this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
 			// 
+			// errorProvider1
+			// 
+			this.errorProvider1.ContainerControl = this;
+			this.errorProvider1.Icon = ((System.Drawing.Icon)(resources.GetObject("errorProvider1.Icon")));
+			// 
+			// errorProvider2
+			// 
+			this.errorProvider2.ContainerControl = this;
+			this.errorProvider2.Icon = ((System.Drawing.Icon)(resources.GetObject("errorProvider2.Icon")));
+			// 
+			// guna2HtmlToolTip1
+			// 
+			this.guna2HtmlToolTip1.AllowLinksHandling = true;
+			this.guna2HtmlToolTip1.MaximumSize = new System.Drawing.Size(0, 0);
+			// 
 			// SplashScreen
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -702,6 +748,8 @@ namespace GreenChain
 			this.guna2Panel3.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
 			this.guna2ContainerControl1.ResumeLayout(false);
+			((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).EndInit();
 			this.ResumeLayout(false);
 
         }
@@ -743,6 +791,10 @@ namespace GreenChain
 		private Guna.UI2.WinForms.Guna2Button guna2Button4;
 		private Guna.UI2.WinForms.Guna2Button guna2Button3;
 		private System.Windows.Forms.Timer timer3;
+		private System.Windows.Forms.ErrorProvider errorProvider1;
+		private System.Windows.Forms.ErrorProvider errorProvider2;
+		private Guna.UI2.WinForms.Guna2ToggleSwitch guna2ToggleSwitch1;
+		private Guna.UI2.WinForms.Guna2HtmlToolTip guna2HtmlToolTip1;
 	}
 }
 
