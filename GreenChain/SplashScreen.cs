@@ -15,6 +15,8 @@ using System.Data.SqlClient;
 
 namespace GreenChain
 {
+    
+
     public partial class SplashScreen : Form
     {
         string cs = ConfigurationManager.ConnectionStrings["db"].ConnectionString;
@@ -90,6 +92,7 @@ namespace GreenChain
                 string query = "select * from REG_TBL WHERE USERNAME=@name and PASS=@pass ";
                 SqlCommand cmd = new SqlCommand(query, con);
 
+
                 cmd.Parameters.AddWithValue("@name", guna2TextBox1.Text);
                 cmd.Parameters.AddWithValue("@pass", guna2TextBox2.Text);
                 
@@ -103,7 +106,8 @@ namespace GreenChain
 
                     if (dread.HasRows == true)
                     {
-
+                    
+                       
                         Admin A1 = new Admin();
                         A1.ShowDialog();
                         this.Show();
