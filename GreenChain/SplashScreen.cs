@@ -77,5 +77,14 @@ namespace GreenChain
 		{
             timer3.Start();
 		}
+
+		private void guna2GradientButton1_Click(object sender, EventArgs e)
+		{
+            
+            Admin A1 = new Admin();
+            A1.ShowDialog();
+            this.Show();
+            this.Close();
+		}
 	}
 }

@@ -149,7 +149,7 @@ namespace GreenChain
 			this.guna2Panel1.Location = new System.Drawing.Point(620, 0);
 			this.guna2Panel1.Name = "guna2Panel1";
 			this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-			this.guna2Panel1.Size = new System.Drawing.Size(515, 78);
+			this.guna2Panel1.Size = new System.Drawing.Size(515, 576);
 			this.guna2Panel1.TabIndex = 4;
 			// 
 			// guna2Button2
@@ -231,7 +231,7 @@ namespace GreenChain
 			this.guna2Panel2.Location = new System.Drawing.Point(617, 0);
 			this.guna2Panel2.Name = "guna2Panel2";
 			this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
-			this.guna2Panel2.Size = new System.Drawing.Size(531, 203);
+			this.guna2Panel2.Size = new System.Drawing.Size(531, 573);
 			this.guna2Panel2.TabIndex = 5;
 			// 
 			// guna2Button4
@@ -343,6 +343,7 @@ namespace GreenChain
 			this.guna2GradientButton1.Size = new System.Drawing.Size(180, 45);
 			this.guna2GradientButton1.TabIndex = 1;
 			this.guna2GradientButton1.Text = "LOGIN ";
+			this.guna2GradientButton1.Click += new System.EventHandler(this.guna2GradientButton1_Click);
 			// 
 			// guna2TextBox2
 			// 

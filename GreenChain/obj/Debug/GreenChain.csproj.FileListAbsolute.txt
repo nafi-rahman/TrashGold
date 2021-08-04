@@ -11,3 +11,5 @@ C:\Users\ZxomStation\source\repos\GreenChain\GreenChain\obj\Debug\GreenChain.exe
 C:\Users\ZxomStation\source\repos\GreenChain\GreenChain\obj\Debug\GreenChain.pdb
 C:\Users\ZxomStation\source\repos\GreenChain\GreenChain\obj\Debug\GreenChain.SplashScreen.resources
 C:\Users\ZxomStation\source\repos\GreenChain\GreenChain\obj\Debug\GreenChain.Admin.resources
+C:\Users\ZxomStation\source\repos\GreenChain\GreenChain\obj\Debug\GreenChain.Delivery.resources
+C:\Users\ZxomStation\source\repos\GreenChain\GreenChain\obj\Debug\GreenChain.Donor.resources
