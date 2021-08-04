@@ -3,10 +3,10 @@ C:\Users\ZxomStation\source\repos\GreenChain\GreenChain\bin\Debug\GreenChain.exe
 C:\Users\ZxomStation\source\repos\GreenChain\GreenChain\bin\Debug\GreenChain.pdb
 C:\Users\ZxomStation\source\repos\GreenChain\GreenChain\bin\Debug\Guna.UI2.dll
 C:\Users\ZxomStation\source\repos\GreenChain\GreenChain\obj\Debug\GreenChain.csproj.AssemblyReference.cache
-C:\Users\ZxomStation\source\repos\GreenChain\GreenChain\obj\Debug\GreenChain.Form1.resources
 C:\Users\ZxomStation\source\repos\GreenChain\GreenChain\obj\Debug\GreenChain.Properties.Resources.resources
 C:\Users\ZxomStation\source\repos\GreenChain\GreenChain\obj\Debug\GreenChain.csproj.GenerateResource.cache
 C:\Users\ZxomStation\source\repos\GreenChain\GreenChain\obj\Debug\GreenChain.csproj.CoreCompileInputs.cache
 C:\Users\ZxomStation\source\repos\GreenChain\GreenChain\obj\Debug\GreenChain.csproj.CopyComplete
 C:\Users\ZxomStation\source\repos\GreenChain\GreenChain\obj\Debug\GreenChain.exe
 C:\Users\ZxomStation\source\repos\GreenChain\GreenChain\obj\Debug\GreenChain.pdb
+C:\Users\ZxomStation\source\repos\GreenChain\GreenChain\obj\Debug\GreenChain.SplashScreen.resources
