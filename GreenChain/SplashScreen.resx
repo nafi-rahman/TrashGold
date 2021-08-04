@@ -120,15 +120,6 @@
   <metadata name="guna2Elipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <data name="guna2HtmlLabel2.Text" xml:space="preserve">
-    <value>
-Hello and welcome to our app. Our goal is to centralize and monitor the whole operation on food so,  people who needs it the most gets the food in their hands in the most effective and fastest possible way. Also, not all food can be donated so some portion of it ends up in 
-the landfill. We want to tackle that issue by turning that food into compost. To make this dream a reality we need all of your help. So, want to work for a good cause? 
-
-
-
-</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="guna2PictureBox1.ErrorImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -9778,6 +9769,18 @@ the landfill. We want to tackle that issue by turning that food into compost. To
         sOoemjZBIIQHUCnQRtClFlUFRDlwWmXINNggyIYhHPvBZ8RfTOvhnB//2Q==
 </value>
   </data>
+  <data name="guna2HtmlLabel2.Text" xml:space="preserve">
+    <value>
+Hello and welcome to our app. Our goal is to centralize and monitor the whole operation on food so,  people who needs it the most gets the food in their hands in the most effective and fastest possible way. Also, not all food can be donated so some portion of it ends up in 
+the landfill. We want to tackle that issue by turning that food into compost. To make this dream a reality we need all of your help. So, want to work for a good cause? 
+
+
+
+</value>
+  </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>140, 14</value>
+  </metadata>
   <data name="guna2PictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAmQAAAMYCAYAAABlhvuyAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
@@ -11948,9 +11951,6 @@ the landfill. We want to tackle that issue by turning that food into compost. To
         TkSuQmCC
 </value>
   </data>
-  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>140, 14</value>
-  </metadata>
   <metadata name="timer2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>227, 14</value>
   </metadata>

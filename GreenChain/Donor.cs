@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace GreenChain
 {
-	public partial class Form3 : Form
+	public partial class Donor : Form
 	{
-		public Form3()
+		public Donor()
 		{
 			InitializeComponent();
 		}

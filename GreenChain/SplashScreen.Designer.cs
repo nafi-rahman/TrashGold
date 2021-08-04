@@ -676,7 +676,7 @@ namespace GreenChain
 			this.timer3.Interval = 1;
 			this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
 			// 
-			// Form1
+			// SplashScreen
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -688,7 +688,8 @@ namespace GreenChain
 			this.Controls.Add(this.guna2Panel2);
 			this.Controls.Add(this.guna2Panel3);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-			this.Name = "Form1";
+			this.Name = "SplashScreen";
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Form1";
 			((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
 			this.guna2Panel1.ResumeLayout(false);

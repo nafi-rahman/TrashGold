@@ -1,7 +1,7 @@
 ﻿
 namespace GreenChain
 {
-	partial class Form4
+	partial class Delivery
 	{
 		/// <summary>
 		/// Required designer variable.

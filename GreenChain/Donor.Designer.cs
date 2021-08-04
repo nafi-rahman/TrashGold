@@ -1,7 +1,7 @@
 ﻿
 namespace GreenChain
 {
-	partial class Form3
+	partial class Donor
 	{
 		/// <summary>
 		/// Required designer variable.

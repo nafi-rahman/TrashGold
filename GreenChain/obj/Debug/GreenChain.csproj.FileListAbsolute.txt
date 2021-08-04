@@ -10,3 +10,4 @@ C:\Users\ZxomStation\source\repos\GreenChain\GreenChain\obj\Debug\GreenChain.csp
 C:\Users\ZxomStation\source\repos\GreenChain\GreenChain\obj\Debug\GreenChain.exe
 C:\Users\ZxomStation\source\repos\GreenChain\GreenChain\obj\Debug\GreenChain.pdb
 C:\Users\ZxomStation\source\repos\GreenChain\GreenChain\obj\Debug\GreenChain.SplashScreen.resources
+C:\Users\ZxomStation\source\repos\GreenChain\GreenChain\obj\Debug\GreenChain.Admin.resources
