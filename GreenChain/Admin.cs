@@ -96,5 +96,30 @@ namespace GreenChain
 				timer1.Stop();
 			}
 		}
+
+		private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+		{
+
+		}
+
+		private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+		{
+
+		}
+
+		private void guna2HtmlLabel3_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void guna2HtmlLabel8_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void guna2HtmlLabel13_Click(object sender, EventArgs e)
+		{
+
+		}
 	}
 }
